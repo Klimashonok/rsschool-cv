@@ -6,7 +6,7 @@
     *Linkedin:* https://by.linkedin.com/in/sergey-klimashonak-79007a271/  
 
 ## Briefly About Myself: 
-      I’m a five-year student of BSUIR. I am interested in 3D modeling. I am a very goal-oriented person. I like to learn new things, so I start to learn HTML and CSS myself. My goal is to become a JavaScript Software Engineer. I really hope that this course will help me to achieve my aim.  
+      I’m a five-year student of BSUIR. I am interested in 3D modeling. I am a very goal-oriented person. I like to   learn new things, so I start to learn HTML and CSS myself. My goal is to become a JavaScript Software Engineer. I   really hope that this course will help me to achieve my aim.      
 
 ## Skills: 
     - JavaScript Basic  
@@ -33,7 +33,7 @@
 }'''  
 
 ## Education: 
-    Information Technology Engineer 2019-present time, Belarusian State University of Informatics and Radio electronics.  
+    Information Technology Engineer 2019-present time, Belarusian State University of Informatics and Radio   electronics.    
 
 ## Languages:  
        - Russian - native  
