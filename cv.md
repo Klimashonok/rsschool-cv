@@ -21,7 +21,7 @@ I really hope that this course will help me to achieve my aim.
 - Fusion360  
 
 ## Code example:  
-  const quarterOf = (month) => {  
+'''const quarterOf = (month) => {  
     1 <= month <= 12;  
     if (month >= 1 && month <= 3) {  
       return 1;  
@@ -33,7 +33,7 @@ I really hope that this course will help me to achieve my aim.
     return 4;  
     }   
   
-  }
+  }'''
 
 ## Education: 
 Information Technology Engineer 2019-present time, Belarusian State University of Informatics and Radio electronics.
