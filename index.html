@@ -7,14 +7,78 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-            <div class="avatar">
-                <img src="./img/photo.jpg" width="180px" height="250px" alt="photo" />
-            </div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-    </div>
-    
+    <header class="header">
+        <h1>Sergey Klimashonak</h1>
+        <nav>
+          <ul>
+            <li><a href="#Contacts">Contacts</a></li>
+            <li><a href="#About me">About me</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Code">Code</a></li>
+            <li><a href="#Education">Education</a></li>
+          </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <img class="avatar" src="img/photo.jpg" alt="My photo">
+        <div class="Contacts">
+            <h2  id="Contacts">Contacts</h2>
+                <ul>
+                    <li>+375293402147</li>
+                    <li>klimashonak254@gmail.com</li>
+                    <li>Linkedin</li>
+                </ul>
+        </div>
+        <div class="About">
+            <h2  id="About me">About me</h2> 
+                <p>
+                    I’m a five-year student of BSUIR. I am interested in 3D modeling. I am a very goal-oriented person.
+                    I like to learn new things, so I start to learn HTML and CSS myself.
+                    My goal is to become a JavaScript Software Engineer.
+                    I really hope that this course will help me to achieve my aim.
+                </p>
+        </div>  
+        <div class="Skills" >
+            <h2  id="Skills">Skills</h2>  
+                <ul>
+                    <li>HTML&CSS</li>
+                    <li>Git</li>
+                    <li>Visual Studio Code</li>
+                    <li>Fusion360</li>
+                    <li>C++ Basic</li>
+                    <li>JavaScript Basic</li>
+                    <li>English - A1</li>
+                </ul>
+        </div>
+        <div class="Code">
+            <h2 id="Code">Code example</h2>
+                <pre><code>
+                    const quarterOf = (month) => {  
+                        1 <= month <= 12;  
+                        if (month >= 1 && month <= 3) {  
+                          return 1;  
+                        } else if (month >= 4 && month <= 6) {  
+                          return 2;  
+                        } else if (month >= 7 && month <= 9) {  
+                          return 3;  
+                        } else if (month >= 10 && month <= 12) {  
+                        return 4;  
+                        }   
+                      
+                      }
+                </code></pre>
+
+        </div>
+        <div class="Education">
+            <h2 id="Education">Education</h2>
+                <p>Information Technology Engineer 2019-present time, Belarusian State University of Informatics and Radio electronics.</p>
+
+        </div>    
+    </main>
+    <footer>
+        <p class="date">2023</p>
+        
+    </footer>
 </body>
 </html>

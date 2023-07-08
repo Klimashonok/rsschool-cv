@@ -1,28 +1,28 @@
-body{
-    background-color: #d5d5d5;
-    font-family: system-ui;
-
-}
-.container{
-    background-color: #e9e7ea;
-    width: 1000px;
-    max-width: 100%;
-    margin: auto;
-    padding: 50px;
-    box-shadow: 0 10px 50px #858585;
-    display: grid;
-    grid-template-columns: 35% 60%;
-    column-gap: 5%;
-    row-gap: 30px;
-
+.header{
+    background-color: aquamarine;
+    border-radius: 15px;
 }
 .avatar{
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 20px;
 }
-.avatar{
-    display: flex;
-    justify-content: center;
+.Skills{
+    background-color: rgb(178, 238, 204);
+    border-radius: 15px;
+}
+.About{
+    background-color: rgb(240, 221, 180);
+    border-radius: 15px;
+}
+.Contacts{
+    background-color: rgb(226, 241, 184);
+    border-radius: 15px;
+}
+.Code{
+    background-color: rgb(200, 179, 214);
+    border-radius: 15px;
+}
+.Education{
+    background-color: rgb(230, 165, 195);
+    border-radius: 15px;
 }
