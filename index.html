@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <h1>Sergey Klimashonak</h1>
         <nav>
-          <ul>
+          <ul class="menu">
             <li><a href="#Contacts">Contacts</a></li>
-            <li><a href="#About me">About me</a></li>
+            <li><a href="#About_me">About me</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Code">Code</a></li>
             <li><a href="#Education">Education</a></li>
@@ -21,17 +21,20 @@
         
     </header>
     <main>
-        <img class="avatar" src="img/photo.jpg" alt="My photo">
+        
         <div class="Contacts">
+          <img class="avatar" src="img/photo.jpg" alt="My photo">
+          <div class="Cont">
             <h2  id="Contacts">Contacts</h2>
                 <ul>
                     <li>+375293402147</li>
                     <li>klimashonak254@gmail.com</li>
                     <li>Linkedin</li>
                 </ul>
+          </div>      
         </div>
         <div class="About">
-            <h2  id="About me">About me</h2> 
+            <h2  id="About_me">About me</h2> 
                 <p>
                     I’m a five-year student of BSUIR. I am interested in 3D modeling. I am a very goal-oriented person.
                     I like to learn new things, so I start to learn HTML and CSS myself.
@@ -77,17 +80,20 @@
         </div>    
     </main>
     <footer class="footer">
-            <a href="https://github.com/Klimashonok/" class="git-link" target="_blank">
-              <img src="./img/github-logo.svg" alt="git-logo" />
-              My GitHub
-            </a>
-        <p class="date">2023</p>
-        <a href="https://rs.school/js/" target="_blank">
-            <img src="./img/rs_school_js.svg" alt="rs-logo" 
+          
+        <a href="https://rs.school/js/" target="_blank" class="rs-link">
+          <img src="./img/rs_school_js.svg" alt="rs-logo" 
               width="86"
               height="32"
-            />
-          </a>
+          />
+        </a>
+
+        <p class="date">2023</p>
+
+        <a href="https://github.com/Klimashonok/" class="git-link" target="_blank">
+          <img src="./img/github-logo.svg" alt="git-logo" />
+            My GitHub
+        </a>
     </footer>
 </body>
 </html>
