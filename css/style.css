@@ -72,6 +72,10 @@ html,body{
     float: right;
     padding-right: 10%;
 }
+.linkedin{
+    text-decoration: none;
+    color: black;
+}
 .Code{
     background-color: #ffccff;
     border-radius: 15px;
