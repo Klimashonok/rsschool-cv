@@ -1,0 +1,55 @@
+html,
+body {
+  background-color: #9d9d9d;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.header {
+  display: flex;
+  background: #0c0c0e;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-family: Inter;
+  font-size: 22px;
+  line-height: 50px;
+  text-decoration: none;
+  gap: 30px;
+  margin-left: 454px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+}
+.brooklyn {
+  color: #fff;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  padding-left: 20px;
+}
+.profile-img {
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  float: left;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  cursor: pointer;
+}
+.welcome {
+  position: relative;
+}
