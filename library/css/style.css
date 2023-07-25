@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #9d9d9d;
+  background-color: #fff;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -12,21 +12,20 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
 .menu {
   display: flex;
   list-style: none;
   font-family: Inter;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 50px;
-  text-decoration: none;
   gap: 30px;
   margin-left: 454px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
-  font-style: normal;
-  font-weight: 400;
 }
 .brooklyn {
   color: #fff;
@@ -52,4 +51,72 @@ body {
 }
 .welcome {
   position: relative;
+}
+
+.line {
+  text-align: center;
+  width: 50px;
+}
+.title {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.image {
+  display: flex;
+  gap: 25px;
+  padding-left: 20px;
+}
+.description {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.senior {
+  display: flex;
+}
+
+.our {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 201px;
+}
+
+.call {
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.textStaff {
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
