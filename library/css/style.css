@@ -49,8 +49,10 @@ body {
   margin-bottom: 31px;
   cursor: pointer;
 }
-.welcome {
-  position: relative;
+.imgwelcome {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 
 .line {
@@ -76,6 +78,24 @@ body {
   gap: 25px;
   padding-left: 20px;
 }
+.Carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+}
+.carousel126 {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.carousel116 {
+  width: 16px;
+  height: 16px;
+  background-color: #0c0c0e;
+  border-radius: 50%;
+}
+
 .description {
   color: #000;
   text-align: center;
@@ -87,6 +107,7 @@ body {
 }
 .senior {
   display: flex;
+  gap: 10px;
 }
 
 .our {
