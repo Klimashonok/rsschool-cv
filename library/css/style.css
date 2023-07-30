@@ -268,6 +268,20 @@ body {
   left: 18px;
   transition: all 0.4s;
 }
+.card-button2 {
+  border: 1px solid #0c0c0e;
+  border-radius: 2px;
+  width: 75px;
+  height: 30px;
+  font-size: 10px;
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  left: 18px;
+}
 .card-button:hover {
   background-color: #bb945f;
 }
