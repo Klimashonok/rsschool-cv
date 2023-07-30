@@ -10,7 +10,6 @@
     <header class="header">
       <h1 class="brooklyn">Brooklyn Public Library</h1>
       <nav class="menu">
-        <!--незабыть переделать шрифт-->
         <li class="nav"><a href="#About">About</a></li>
         <li class="nav"><a href="#Favorites">Favorites</a></li>
         <li class="nav"><a href="#Coffee shop">Coffee shop</a></li>
@@ -21,10 +20,15 @@
     </header>
     <main>
       <section class="welcome">
-        <img class="imgwelcome" src="img/Welcome.png" alt="Welcome" />
-        <!-- в велкоме сделать текст-->
+        <img src="img/Welcome.png" alt="Welcome" />
+        <div class="welcom-box">
+          <p class="welcom-text">WELCOME</br>
+          TO THE BROOKLYN </br>
+            LIBRARY
+          </p>
+        </div>
       </section>
-      <section class="About">
+      <section class="About" id="About">
         <h2 class="title">About</h2>
         <hr class="line" />
         <p class="description">
@@ -36,22 +40,129 @@
           <img src="img/image 2.png" alt="image 2" />
           <img src="img/image 3.png" alt="image 3" />
         </div>
-
-        <div class="Carousel">
-          <div class="carousel126">
-            <a href=""></a>
-            <div class="carousel116"></div>
-            <!--ссылка. 3 дива 26х26 кликабельные а внутри их дивы 16х16 -->
+        <div class="Carousel-pagination">
+          <!--не забыть id-->
+          <div class="carusel-buttons">
+            <button class="carusel-button active-carusel-button"></button>
+            <button class="carusel-button"></button>
+            <button class="carusel-button"></button>
           </div>
         </div>
       </section>
-      <section class="Favoritestext">
+      <section class="Favoritestext" id="Favorites">
         <h2 class="title">Favorites</h2>
         <hr class="line" />
         <p class="season">Pick favorites of season</p>
-        <!--пока не знаю как наложить картинки на 4 квадрата-->
+        <div class="radio-buttons-content">
+          <div class="radio-conteiner">
+            <input
+              class="radio"
+              type="radio"
+              name="season"
+              id="winter"
+              checked
+            />
+            <label for="winter">Winter</label>
+          </div>
+          <div class="radio-conteiner">
+            <input class="radio" type="radio" name="season" id="spring" />
+            <label for="spring">Spring</label>
+          </div>
+          <div class="radio-conteiner">
+            <input class="radio" type="radio" name="season" id="summer" />
+            <label for="summer">Summer</label>
+          </div>
+          <div class="radio-conteiner">
+            <input class="radio" type="radio" name="season" id="autumn" />
+            <label for="autumn">Autumn</label>
+          </div>
+        </div>
+        
+          <div class="book-box">
+            <div class="cards-column">
+              <div class="card">
+                <h3 class="card-title">Staff Picks</h3>
+                <hr class="card-line" />
+                <h3 class="book-title">
+                  <span class="upper">The Body </span><br />By Stephen King
+                </h3>
+                <p class="book-description">
+                  Powerful novel that takes you back to a nostalgic time,
+                  exploring both the beauty and danger and loss of innocence that
+                  is youth.
+                </p>
+                <button class="card-button">Buy</button>
+                <img
+                  class="card-img"
+                  src="img/book1.png"
+                  alt="book"
+                />
+              </div>
+              <div class="card">
+                <h3 class="card-title">Staff Picks</h3>
+                <hr class="card-line" />
+                <h3 class="book-title">
+                  <span class="upper">Days of Distraction</span><br />By Alexandra
+                  Chang
+                </h3>
+                <p class="book-description">
+                  A sardonic view of Silicon Valley culture, a meditation on race,
+                  and a journal of displacement and belonging, all in one
+                  form-defying package of spare prose.
+                </p>
+                <button class="card-button">Buy</button>
+                <img
+                  class="card-img"
+                  src="img/book3.png"
+                  alt="book"
+                />
+              </div>
+            </div>
+            <div class="cards-column">
+              <div class="card">
+                <h3 class="card-title">Staff Picks</h3>
+                <hr class="card-line" />
+                <h3 class="book-title">
+                  <span class="upper"
+                    >Carry: A Memoir of Survival on Stolen Land </span
+                  ><br />By Toni Jenson
+                </h3>
+                <p class="book-description">
+                  This memoir about the author's relationship with gun violence
+                  feels both expansive and intimate, resulting in a lyrical
+                  indictment of the way things are.
+                </p>
+                <button class="card-button">Buy</button>
+                <img
+                  class="card-img"
+                  src="img/book2.png"
+                  alt="book"
+                />
+              </div>
+              <div class="card">
+                <h3 class="card-title">Staff Picks</h3>
+                <hr class="card-line" />
+                <h3 class="book-title">
+                  <span class="upper">Dominicana</span><br />By Angie Cruz
+                </h3>
+                <p class="book-description">
+                  A fascinating story of a teenage girl who marries a man twice
+                  her age with the promise to bring her to America. Her marriage
+                  is an opportunity for her family to eventually immigrate. For
+                  fans of Isabel Allende and Julia Alvarez.
+                </p>
+                <button class="card-button disabled" disabled>Own</button>
+                <img
+                  class="card-img"
+                  src="img/book4.png"
+                  alt="book"
+                />
+              </div>
+            </div>
+          </div>
+        
       </section>
-      <section class="shop">
+      <section class="shop" id="Coffee shop">
         <h2 class="title">Coffee shop</h2>
         <hr class="line" />
         <p class="description">
@@ -60,8 +171,77 @@
           favorite book and read in coffee shop. Our barista to cook you best
           coffee, and also you can try desserts from bakery.
         </p>
+        <div class="coffee-shop">
+          <div class="coffee-tea">
+            <h3 class="coffee-text">Coffee & Tea</h3>
+            <div class="product">
+              <p class="coffe-card-text">Cold Brew Coffee</p>
+              <hr class="coffe-card-left-line" />
+              <p class="coffe-card-text price">$3</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text">French Press Pot</p>
+              <hr class="coffe-card-left-line" />
+              <p class="coffe-card-text price">$5</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text">Espresso</p>
+              <hr class="coffe-card-left-line" />
+              <p class="coffe-card-text price">$2</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text">Cappuccino</p>
+              <hr class="coffe-card-left-line" />
+              <p class="coffe-card-text price">$4</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text">Hot Tea</p>
+              <hr class="coffe-card-left-line" />
+              <p class="coffe-card-text price">$2</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text">Cold Tea</p>
+              <hr class="coffe-card-left-line" />
+              <p class="coffe-card-text price">$2</p>
+            </div>
+          </div>
+          <div class="desserts">
+            <h3 class="desserts-text">Desserts & Cakes</h3>
+            <div class="product">
+              <p class="coffe-card-text">Forest Gateau</p>
+              <hr class="coffe-card-right-line" />
+              <p class="coffe-card-text price">$16</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text text-right">Blue Moon</p>
+              <hr class="coffe-card-right-line" />
+              <p class="coffe-card-text price">$16</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text text-right">Truffle Cake</p>
+              <hr class="coffe-card-right-line" />
+              <p class="coffe-card-text price">$15</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text text-right">Chocolate Cake</p>
+              <hr class="coffe-card-right-line" />
+              <p class="coffe-card-text price">$18</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text text-right">Poet’s Dream Cake</p>
+              <hr class="coffe-card-right-line" />
+              <p class="coffe-card-text price">$16</p>
+            </div>
+            <div class="product">
+              <p class="coffe-card-text text-right">Pineapple Cake</p>
+              <hr class="coffe-card-right-line" />
+              <p class="coffe-card-text price">$14</p>
+            </div>
+          </div>
+        
+        </div>
       </section>
-      <section class="Contacts">
+      <section class="Contacts" id="Contacts">
         <h2 class="title">Our Contacts</h2>
         <hr class="line" />
         <div class="our">
@@ -79,11 +259,99 @@
           <img class="map" src="img/Rectangle 4.png" alt="Rectangle" />
         </div>
       </section>
-      <section class="Cards">
+      <section id="Library Card">
         <h2 class="title">Digital Library Cards</h2>
         <hr class="line" />
+        <div class="Card">
+        <div class="Find">
+          <h3 class="Find-text">Find your Library card</h3>
+          <div class="Find-box">
+            <div class="input-box">
+              <p class="input-text">Brooklyn Public Library</p>
+              <div class="input2"> 
+                  <input
+                  class="form-input"
+                  type="text"
+                  placeholder="Reader's name"
+                  pattern="[a-zA-Z0-9-]*"
+                />
+                <input
+                  class="form-input"
+                  type="text"                 
+                  placeholder="Card number"
+                  pattern="[a-zA-Z0-9-]*"
+                  required
+                />
+              </div>  
+            </div>
+            <div class="button-card">
+              <button class="form-button" type="submit">
+                Check the card
+              </button>
+            </div>  
+          </div> 
+        </div>
+        <div class="get ">
+          <h3 class="reader-card">Get a reader card</h3>
+          <p class="card-text">
+            You will be able to see a reader card after logging into account
+            or you can register a new account
+          </p>
+          <div class="library-card-buttons">
+            <button class="button-card">Sign Up</button>
+            <button class="button-card">Log in</button>
+          </div>
+        </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    
+    <footer class="footer">
+      <div class="footer-flex">
+        <div class="footer-column">
+          <a
+            class="footer-adress"
+            href="https://www.google.com/maps/search/?api=1&query=286+Cadman+Plaza%2C+New+York%2C+NY+11238%2C+United+States"
+            >286 Cadman Plaza, New York,<br />NY 11238, United States</a
+          >
+          <ul class="icons">
+            <li class="footer-icon">
+              <a href="https://twitter.com" target="_blank"
+                ><img src="img/u_twitter-alt.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li class="footer-icon">
+              <a href="https://www.instagram.com" target="_blank"
+                ><img src="img/u_instagram.svg" alt="Instagram" 
+              /></a>
+            </li>
+            <li class="footer-icon">
+              <a href="https://www.facebook.com" target="_blank"
+                ><img src="img/u_facebook-f.svg" alt="Facebook"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <p class="footer-adress text-right">
+            Mon - Fri<br />
+            08:00 am - 07:00 pm
+          </p>
+          <p class="footer-adress text-right">
+            Sat - Sun <br />
+            10:00 am - 06:00 pm
+          </p>
+        </div>
+      </div>
+      <hr class="footer-line" />
+      <div class="footer-flex">
+        <p class="footer-text">2023</p>
+        <a class="footer-text pl" href="https://rs.school/js-stage0/" target="_blank">
+          The Rolling Scopes School
+        </a>
+        <a class="footer-text" href="https://github.com/Klimashonok" target="_blank">Sergey</a>
+      </div>
+    
+    </footer>
   </body>
 </html>
