@@ -9,12 +9,14 @@
   <body>
     <header class="header">
       <h1 class="brooklyn">Brooklyn Public Library</h1>
-      <nav class="menu">
-        <li class="nav"><a href="#About">About</a></li>
-        <li class="nav"><a href="#Favorites">Favorites</a></li>
-        <li class="nav"><a href="#Coffee shop">Coffee shop</a></li>
-        <li class="nav"><a href="#Contacts">Contacts</a></li>
-        <li class="nav"><a href="#Library Card">Library Card</a></li>
+      <nav>
+        <ul class="menu">
+          <li class="nav"><a href="#About">About</a></li>
+          <li class="nav"><a href="#Favorites">Favorites</a></li>
+          <li class="nav"><a href="#Coffee-shop">Coffee shop</a></li>
+          <li class="nav"><a href="#Contacts">Contacts</a></li>
+          <li class="nav"><a href="#Library-Card">Library Card</a></li>
+        </ul>
       </nav>
       <img class="profile-img" src="img/icon_profile.svg" alt="profile" />
     </header>
@@ -22,26 +24,26 @@
       <section class="welcome">
         <img src="img/Welcome.png" alt="Welcome" />
         <div class="welcom-box">
-          <p class="welcom-text">WELCOME</br>
-          TO THE BROOKLYN </br>
+          <h3 class="welcom-text">
+            WELCOME<br />
+            TO THE BROOKLYN<br />
             LIBRARY
-          </p>
+          </h3>
         </div>
       </section>
       <section class="About" id="About">
-        <h2 class="title">About</h2>
-        <hr class="line" />
-        <p class="description">
+        <h2 class="title-about">About</h2>
+        <hr class="line-about" />
+        <p class="description-about">
           The Brooklyn Library is a free workspace, a large number of books and
           a cozy coffee shop inside
         </p>
         <div class="image">
-          <img src="img/image 1.png" alt="image 1" />
-          <img src="img/image 2.png" alt="image 2" />
-          <img src="img/image 3.png" alt="image 3" />
+          <img src="img/image1.png" alt="image 1" />
+          <img src="img/image2.png" alt="image 2" />
+          <img src="img/image3.png" alt="image 3" />
         </div>
         <div class="Carousel-pagination">
-          <!--не забыть id-->
           <div class="carusel-buttons">
             <button class="carusel-button active-carusel-button"></button>
             <button class="carusel-button"></button>
@@ -77,95 +79,80 @@
             <label for="autumn">Autumn</label>
           </div>
         </div>
-        
-          <div class="book-box">
-            <div class="cards-column">
-              <div class="card">
-                <h3 class="card-title">Staff Picks</h3>
-                <hr class="card-line" />
-                <h3 class="book-title">
-                  <span class="upper">The Body </span><br />By Stephen King
-                </h3>
-                <p class="book-description">
-                  Powerful novel that takes you back to a nostalgic time,
-                  exploring both the beauty and danger and loss of innocence that
-                  is youth.
-                </p>
-                <button class="card-button">Buy</button>
-                <img
-                  class="card-img"
-                  src="img/book1.png"
-                  alt="book"
-                />
-              </div>
-              <div class="card">
-                <h3 class="card-title">Staff Picks</h3>
-                <hr class="card-line" />
-                <h3 class="book-title">
-                  <span class="upper">Days of Distraction</span><br />By Alexandra
-                  Chang
-                </h3>
-                <p class="book-description">
-                  A sardonic view of Silicon Valley culture, a meditation on race,
-                  and a journal of displacement and belonging, all in one
-                  form-defying package of spare prose.
-                </p>
-                <button class="card-button">Buy</button>
-                <img
-                  class="card-img"
-                  src="img/book3.png"
-                  alt="book"
-                />
-              </div>
+
+        <div class="book-box">
+          <div class="cards-column">
+            <div class="card">
+              <h3 class="card-title">Staff Picks</h3>
+              <hr class="card-line" />
+              <h3 class="book-title">
+                <span class="upper">The Book Eaters </span><br />By Sunyi Dean
+              </h3>
+              <p class="book-description">
+                An unusual sci-fi story about a book eater woman who tries
+                desperately to save her dangerous mind-eater son from tradition
+                and certain death. Complete with dysfunctional family values,
+                light Sapphic romance, and a strong, complex protagonist. Not
+                for the faint of heart.
+              </p>
+              <button class="card-button">Buy</button>
+              <img class="card-img" src="img/book1.png" alt="book" />
             </div>
-            <div class="cards-column">
-              <div class="card">
-                <h3 class="card-title">Staff Picks</h3>
-                <hr class="card-line" />
-                <h3 class="book-title">
-                  <span class="upper"
-                    >Carry: A Memoir of Survival on Stolen Land </span
-                  ><br />By Toni Jenson
-                </h3>
-                <p class="book-description">
-                  This memoir about the author's relationship with gun violence
-                  feels both expansive and intimate, resulting in a lyrical
-                  indictment of the way things are.
-                </p>
-                <button class="card-button">Buy</button>
-                <img
-                  class="card-img"
-                  src="img/book2.png"
-                  alt="book"
-                />
-              </div>
-              <div class="card">
-                <h3 class="card-title">Staff Picks</h3>
-                <hr class="card-line" />
-                <h3 class="book-title">
-                  <span class="upper">Dominicana</span><br />By Angie Cruz
-                </h3>
-                <p class="book-description">
-                  A fascinating story of a teenage girl who marries a man twice
-                  her age with the promise to bring her to America. Her marriage
-                  is an opportunity for her family to eventually immigrate. For
-                  fans of Isabel Allende and Julia Alvarez.
-                </p>
-                <button class="card-button disabled" disabled>Own</button>
-                <img
-                  class="card-img"
-                  src="img/book4.png"
-                  alt="book"
-                />
-              </div>
+            <div class="card">
+              <h3 class="card-title">Staff Picks</h3>
+              <hr class="card-line" />
+              <h3 class="book-title">
+                <span class="upper">Dante: Poet of the Secular World</span
+                ><br />By Erich Auerbach
+              </h3>
+              <p class="book-description">
+                Auerbach's engaging book places the 'Comedy' within the
+                tradition of epic, tragedy, and philosophy in general, arguing
+                for Dante's uniqueness as one who raised the individual and his
+                drama of soul into something of divine significance—an inspired
+                introduction to Dante's main themes.
+              </p>
+              <button class="card-button">Buy</button>
+              <img class="card-img" src="img/book3.png" alt="book" />
             </div>
           </div>
-        
+          <div class="cards-column">
+            <div class="card">
+              <h3 class="card-title">Staff Picks</h3>
+              <hr class="card-line" />
+              <h3 class="book-title">
+                <span class="upper">Cackle </span><br />By Rachel Harrison
+              </h3>
+              <p class="book-description">
+                Are your Halloween movies of choice The Witches of Eastwick and
+                Practical Magic? Look no further than here - where a woman
+                recovering from a breakup moves to a quaint town in upstate New
+                York and befriends a beautiful witch.
+              </p>
+              <button class="card-button">Buy</button>
+              <img class="card-img" src="img/book2.png" alt="book" />
+            </div>
+            <div class="card">
+              <h3 class="card-title">Staff Picks</h3>
+              <hr class="card-line" />
+              <h3 class="book-title">
+                <span class="upper">The Last Queen</span><br />By Clive Irving
+              </h3>
+              <p class="book-description">
+                A timely and revelatory new biography of Queen Elizabeth (and
+                her family) exploring how the Windsors have evolved and thrived
+                as the modern world has changed around them.
+              </p>
+              <button class="card-button disabled" disabled>Own</button>
+              <img class="card-img" src="img/book4.png" alt="book" />
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="shop" id="Coffee shop">
-        <h2 class="title">Coffee shop</h2>
-        <hr class="line" />
-        <p class="description">
+      <section class="shop" id="Coffee-shop">
+        <h2 class="title-shop">Coffee shop</h2>
+        <hr class="line-shop" />
+        <p class="description-shop">
           In our library, we have of cozy coffee shop, welcoming in customers
           with frothy cappuccinos and friendly conversation. you can get a
           favorite book and read in coffee shop. Our barista to cook you best
@@ -238,12 +225,11 @@
               <p class="coffe-card-text price">$14</p>
             </div>
           </div>
-        
         </div>
       </section>
       <section class="Contacts" id="Contacts">
-        <h2 class="title">Our Contacts</h2>
-        <hr class="line" />
+        <h2 class="title-contacts">Our Contacts</h2>
+        <hr class="line-contacts" />
         <div class="our">
           <div>
             <h3 class="textStaff">For all Library inquiries:</h3>
@@ -253,62 +239,62 @@
             <h3 class="textStaff">Senior Staff</h3>
             <div class="senior">
               <p class="call">Library Director:</p>
-              <p class="textStaff">Amanda Hirst</p>
+              <p class="textStaff2">Amanda Hirst</p>
             </div>
           </div>
-          <img class="map" src="img/Rectangle 4.png" alt="Rectangle" />
+          <img class="map" src="img/Rectangle4.png" alt="Rectangle" />
         </div>
       </section>
-      <section id="Library Card">
-        <h2 class="title">Digital Library Cards</h2>
-        <hr class="line" />
+      <section id="Library-Card" class="Digital-Library-Cards">
+        <h2 class="title-card">Digital Library Cards</h2>
+        <hr class="line-card" />
         <div class="Card">
-        <div class="Find">
-          <h3 class="Find-text">Find your Library card</h3>
-          <div class="Find-box">
-            <div class="input-box">
-              <p class="input-text">Brooklyn Public Library</p>
-              <div class="input2"> 
+          <div class="Find">
+            <h3 class="Find-text">Find your Library card</h3>
+            <div class="Find-box">
+              <div class="input-box">
+                <p class="input-text">Brooklyn Public Library</p>
+                <div class="input2">
                   <input
-                  class="form-input"
-                  type="text"
-                  placeholder="Reader's name"
-                  pattern="[a-zA-Z0-9-]*"
-                />
-                <input
-                  class="form-input"
-                  type="text"                 
-                  placeholder="Card number"
-                  pattern="[a-zA-Z0-9-]*"
-                  required
-                />
-              </div>  
+                    class="form-input"
+                    type="text"
+                    placeholder="Reader's name"
+                    pattern="[a-zA-Z0-9-]*"
+                  />
+                  <input
+                    class="form-input"
+                    type="text"
+                    placeholder="Card number"
+                    pattern="[a-zA-Z0-9-]*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="button-find">
+                <button class="form-button" type="submit">
+                  Check the card
+                </button>
+              </div>
             </div>
-            <div class="button-card">
-              <button class="form-button" type="submit">
-                Check the card
-              </button>
-            </div>  
-          </div> 
-        </div>
-        <div class="get ">
-          <h3 class="reader-card">Get a reader card</h3>
-          <p class="card-text">
-            You will be able to see a reader card after logging into account
-            or you can register a new account
-          </p>
-          <div class="library-card-buttons">
-            <button class="button-card">Sign Up</button>
-            <button class="button-card">Log in</button>
           </div>
-        </div>
+          <div class="get">
+            <h3 class="reader-card">Get a reader card</h3>
+            <p class="card-text">
+              You will be able to see a reader card after logging into account
+              or you can register a new account
+            </p>
+            <div class="library-card-buttons">
+              <button class="button-card">Sign Up</button>
+              <button class="button-card">Log in</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    
+
     <footer class="footer">
-      <div class="footer-flex">
-        <div class="footer-column">
+      <div class="footer-flex-up">
+        <div class="footer-column-left">
           <a
             class="footer-adress"
             href="https://www.google.com/maps/search/?api=1&query=286+Cadman+Plaza%2C+New+York%2C+NY+11238%2C+United+States"
@@ -322,7 +308,7 @@
             </li>
             <li class="footer-icon">
               <a href="https://www.instagram.com" target="_blank"
-                ><img src="img/u_instagram.svg" alt="Instagram" 
+                ><img src="img/u_instagram.svg" alt="Instagram"
               /></a>
             </li>
             <li class="footer-icon">
@@ -333,11 +319,11 @@
           </ul>
         </div>
         <div class="footer-column">
-          <p class="footer-adress text-right">
+          <p class="footer-adress">
             Mon - Fri<br />
             08:00 am - 07:00 pm
           </p>
-          <p class="footer-adress text-right">
+          <p class="footer-adress">
             Sat - Sun <br />
             10:00 am - 06:00 pm
           </p>
@@ -346,12 +332,20 @@
       <hr class="footer-line" />
       <div class="footer-flex">
         <p class="footer-text">2023</p>
-        <a class="footer-text pl" href="https://rs.school/js-stage0/" target="_blank">
+        <a
+          class="footer-text pl"
+          href="https://rs.school/js-stage0/"
+          target="_blank"
+        >
           The Rolling Scopes School
         </a>
-        <a class="footer-text" href="https://github.com/Klimashonok" target="_blank">Sergey</a>
+        <a
+          class="footer-text"
+          href="https://github.com/Klimashonok"
+          target="_blank"
+          >Sergey</a
+        >
       </div>
-    
     </footer>
   </body>
 </html>
