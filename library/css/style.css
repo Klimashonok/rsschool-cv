@@ -1,0 +1,699 @@
+html,
+body {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.header {
+  display: flex;
+  background: #0c0c0e;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav a:hover {
+  color: #8e8e8e;
+}
+.menu {
+  letter-spacing: 0.02em;
+  display: flex;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  gap: 30px;
+  margin-left: 423px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.brooklyn {
+  color: #fff;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+
+  padding-left: 20px;
+}
+.profile-img {
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  float: left;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  cursor: pointer;
+}
+.welcome {
+  position: relative;
+  background-size: cover;
+}
+
+.welcom-text {
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  font-family: forum;
+  font-weight: 400;
+  width: 520px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #0c0c0e;
+  padding: 35px 40px;
+  bottom: 128px;
+
+  line-height: 50px;
+}
+
+.line {
+  text-align: center;
+  width: 50px;
+  margin-bottom: 30px;
+}
+.title {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.image {
+  display: flex;
+  gap: 25px;
+  padding-left: 20px;
+}
+.title-about {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  margin: 0;
+}
+.description-about {
+  color: #000;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.6px;
+}
+.line-about {
+  text-align: center;
+  width: 50px;
+  margin-bottom: 40px;
+}
+.carusel-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+}
+.carusel-button {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.carusel-button::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #0c0c0e;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.carusel-button:hover::before {
+  background-color: #bb945f;
+}
+.active-carusel-button::before {
+  background-color: #bb945f;
+}
+.Favoritestext {
+  padding: 0px 20px 40px 20px;
+}
+.season {
+  color: #000;
+  text-align: left;
+  font-family: inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+.radio-buttons-content {
+  display: flex;
+  gap: 88px;
+  position: relative;
+  left: -5px;
+  top: -2px;
+  padding-bottom: 2px;
+}
+.radio-conteiner {
+  display: flex;
+  align-items: center;
+  color: #0c0c0e;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.radio {
+  margin: 0;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+.radio::before {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #0c0c0e;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.radio::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  z-index: -1;
+}
+.radio-conteiner label {
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.radio:checked::after {
+  background-color: #000;
+}
+.radio:checked + label {
+  font-weight: bold;
+}
+.book-box {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.cards-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card-button {
+  border: 1px solid #0c0c0e;
+  border-radius: 2px;
+  width: 75px;
+  height: 30px;
+  font-size: 10px;
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  left: 18px;
+  transition: all 0.4s;
+}
+.card-button:hover {
+  background-color: #bb945f;
+}
+
+.card {
+  width: 508px;
+  height: 524px;
+  position: relative;
+  padding: 15px 20px;
+  letter-spacing: 2px;
+  background-color: #fff;
+  border: 1px solid #0c0c0e;
+  line-height: 40px;
+}
+.card-title {
+  font-family: forum;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0c0c0e;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card-line {
+  color: #bb945f;
+  border-style: solid;
+  border-width: 1px;
+  width: 60px;
+  margin: 0 0 20px 0;
+}
+.book-title {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+.book-description {
+  width: 358px;
+  font-family: inter, sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.card-img {
+  position: absolute;
+  bottom: -1px;
+  right: -40px;
+}
+.upper {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.line-shop {
+  text-align: center;
+  width: 50px;
+  margin-bottom: 40px;
+}
+.title-shop {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-top: 17px;
+  padding-bottom: 13px;
+  margin: 0;
+}
+.description-shop {
+  color: #000;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+.coffee-shop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px 17px 20px;
+}
+.desserts-text {
+  color: #bb945f;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.coffee-text {
+  color: #bb945f;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.coffe-card-text {
+  font-family: inter, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #0c0c0e;
+  display: inline-block;
+  margin: 0;
+  width: 212px;
+  line-height: 40px;
+}
+.coffe-card-right-line {
+  display: inline-block;
+  color: #bb945f;
+  border-style: solid;
+  border-width: 1px;
+  width: 100px;
+  margin: 0px 54px 6px 54px;
+}
+.coffe-card-left-line {
+  display: inline-block;
+  color: #bb945f;
+  border-style: solid;
+  border-width: 1px;
+  width: 100px;
+  margin: 0px 54px 6px 40px;
+}
+.product {
+  padding-right: 10px;
+  margin-bottom: 40px;
+}
+.desserts {
+  text-align: right;
+}
+.price {
+  font-family: forum;
+  width: 20px;
+}
+.senior {
+  display: flex;
+  gap: 10px;
+}
+
+.our {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 220px;
+  margin: 0;
+  margin-bottom: 17px;
+}
+.title-contacts {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-bottom: 14px;
+  margin: 0;
+}
+.line-contacts {
+  text-align: center;
+  width: 50px;
+  margin-bottom: 40px;
+}
+.call {
+  color: #000;
+  text-align: left;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 33px;
+  margin-top: 21px;
+}
+.textStaff {
+  color: #000;
+  text-align: left;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+.textStaff2 {
+  color: #000;
+  text-align: left;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.Digital-Library-Cards {
+  margin-bottom: 41px;
+}
+.map {
+  margin: 0;
+}
+.Card {
+  display: flex;
+  gap: 344px;
+  padding-top: 7px;
+}
+.title-card {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-bottom: 14px;
+  margin-top: 20px;
+  margin: 0;
+}
+.line-card {
+  text-align: center;
+  width: 50px;
+  margin-bottom: 30px;
+}
+.Find {
+  width: 600px;
+  height: 453px;
+  flex-shrink: 0;
+  background-color: #fff;
+  padding-left: 17px;
+}
+.Find-text {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.Find-box {
+  width: 600px;
+  height: 386px;
+  flex-shrink: 0;
+  border: 3px solid #bb945f;
+  background: #fff;
+  margin-bottom: 41px;
+}
+.button-find {
+  display: flex;
+  justify-content: center;
+  padding-top: 22px;
+}
+.form-button {
+  border: 1px solid #0c0c0e;
+  color: #0c0c0e;
+  border-radius: 2px;
+  font-family: inter;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 242px;
+  height: 44px;
+}
+.form-button:hover {
+  background-color: #bb945f;
+}
+.input-box {
+  margin: auto;
+  background-color: #bb945f;
+  width: 540px;
+  height: 261px;
+  flex-shrink: 0;
+  padding-left: 20px;
+}
+.input2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input-text {
+  color: #000;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+}
+.form-input {
+  width: 520px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  color: #8e8e8e;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+}
+
+.get {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  text-align: right;
+}
+.reader-card {
+  font-family: forum;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+.card-text {
+  font-family: inter;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  width: 456px;
+}
+.library-card-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.button-card {
+  border: 1px solid #0c0c0e;
+  color: #0c0c0e;
+  border-radius: 2px;
+  font-family: inter;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 75px;
+  height: 30px;
+}
+.button-card:hover {
+  background-color: #bb945f;
+}
+.footer {
+  color: #fff;
+  background-color: #0c0c0e;
+  padding: 20px 20px 44px 20px;
+  margin-top: 41px;
+}
+.footer-flex-up {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+}
+.footer-column-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-adress {
+  font-family: inter, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin-top: 8px;
+}
+.footer-icon {
+  list-style: none;
+}
+.footer-line {
+  margin: 16px 0 44px 0;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.footer-text {
+  font-family: inter;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+}
+
+.pl {
+  padding-left: 12px;
+}

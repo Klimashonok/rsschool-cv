@@ -1,0 +1,117 @@
+html,body{
+    background-color: #9d9d9d;
+    margin: 0 auto;
+    max-width: 1280px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header{
+    background-color: #FFFF99;
+    border-radius: 15px;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.avatar{
+    width: 200px;
+    border-radius: 20px;
+    
+    
+}
+.Skills{
+    background-color: #ccccff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+#Skills{
+    text-align: center;
+}
+.About{
+    background-color: #CCFF99;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    font-style: italic;
+}
+#About_me{
+    text-align: center;
+    font-style: normal;
+}
+.Contacts{
+    
+    background-color: #CCFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.Cont{
+    float: right;
+    padding-right: 10%;
+}
+.Code{
+    background-color: #ffccff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#Code{
+    text-align: center;
+}
+.Education{
+    background-color: #66ff66;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#Education{
+    text-align: center;
+}
+.footer{
+    background: #FFFF33;
+    list-style: none;
+    padding: 10px;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+.date{
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+.git-link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
