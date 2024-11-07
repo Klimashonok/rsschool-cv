@@ -21,3 +21,27 @@ My goal is to become a JavaScript Software Engineer. I really hope that this cou
 - HTML & CSS
 - Git
 - Visual Studio Code
+
+## Code Example:
+
+function isPrime(num) {
+if (num <= 1) return false;
+if (num <= 3) return true;
+
+    if (num % 2 === 0 || num % 3 === 0) return false;
+
+    for (let i = 5; i * i <= num; i += 6) {
+        if (num % i === 0 || num % (i + 2) === 0) return false;
+    }
+
+    return true;
+
+}
+
+## Education:
+
+- Belarusian State University of Informatics and Radioelectronics
+
+## English:
+
+- A2
