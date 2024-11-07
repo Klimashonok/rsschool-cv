@@ -6,3 +6,18 @@
 - **E-mail:** [maverick254@tut.by](mailto:maverick254@tut.by)
 - **Telegram:** [@maverick254](https://t.me/maverick254)
 - **LinkedIn:** [Siarhei Klimashonak](https://by.linkedin.com/in/sergei-klimashonak-79007a271)
+
+## Briefly About Myself:
+
+I’m a five-year student of BSUIR. I am interested in 3D modeling. I am a very goal-oriented person.
+I like to learn new things, so I started to learn HTML and CSS myself.
+My goal is to become a JavaScript Software Engineer. I really hope that this course will help me to achieve my aim.
+
+## Skills:
+
+- JavaScript Basic
+- C++ Basic
+- Python Basic
+- HTML & CSS
+- Git
+- Visual Studio Code
